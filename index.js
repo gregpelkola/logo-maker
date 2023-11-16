@@ -33,7 +33,7 @@ function writeToFile(fileName, answers) {
 
     function promptUser() {
         inquirer
-          .prompt([
+        .prompt([
             {
                 type: "input",
                 message:
@@ -68,5 +68,5 @@ function writeToFile(fileName, answers) {
                 }
               });
           }
-
+          
           promptUser();
